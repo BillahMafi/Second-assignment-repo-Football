@@ -84,19 +84,16 @@ button styles
   border: 2px solid rgb(116, 116, 255);
 }
 .banner:hover .play {
-  transform: rotate(80deg);
-  transform-origin: top right;
+  transform: rotate(360deg);
 }
 /*_______________________________________
  grid starts here 
 ------------------------------- */
-
-.box,
 .Players {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   margin-left: 30px;
   margin-right: 30px;
@@ -106,16 +103,16 @@ button styles
 /* Grid Ends 
 __________________________ */
 .players-sec {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin-left: 30px;
   margin-right: 30px;
 }
+.player h4 {
+  font-size: 25px;
+}
 
 .player {
-  box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
-  padding: 10px;
+  box-shadow: 0px 0px 30px rgb(247, 236, 222);
+  padding: 15px;
 }
 
 .player img {
@@ -201,16 +198,17 @@ __________________________ */
   grid-column-gap: 30px;
 }
 .blog {
-  box-shadow: 3px 6px 6px 6px #000000;
+  box-shadow: 3px 3px 3px 3px #797474;
   padding: 15px;
-  border-bottom-right-radius: 30px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .blog-author {
   color: dimgray;
 }
 .blog-author a {
-  color: #e02c6d;
+  color: #b6587a;
   text-decoration: none;
 }
 /* End of Blog  */
