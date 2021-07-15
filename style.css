@@ -152,6 +152,7 @@ __________________________ */
   margin-top: 30px;
 }
 .highlights p {
+  /* text-align: center; */
   color: gray;
   margin-right: 30px;
   margin-left: 20px;
@@ -223,6 +224,9 @@ footer {
 .footer-img img {
   width: 483px;
   height: 100px;
+  margin-top: 20px;
+  margin-left: 300px;
+  padding: 20px;
   align-items: center;
   justify-content: center;
 }
